@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stratton House Propiedades</string>
+    <string name="in">Click en los iconos para acceder</string>
+    <string name="us">Stratton Corredores es un grupo financiero preocupado por entregar una asesoría, orientación y alternativa óptima a nuestros clientes.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

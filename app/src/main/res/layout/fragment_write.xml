@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexanderdrumond.work1.WriteFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:id="@+id/writeusBtn"
+        android:text="¡Escribenos!"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:lines="2"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/editTxt"
+        android:textColorHint="@android:color/black"
+        android:hint="Escribenos tu mensaje aqui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/sendBtn"
+        android:text="Enviar"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
